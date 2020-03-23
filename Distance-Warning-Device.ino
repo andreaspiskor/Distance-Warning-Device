@@ -12,7 +12,7 @@ const byte ledRedPin = 4;
 const byte ledGreenPin = 5;
 const byte speakerPin = 8;
 const int toneFrequency = 2000;
-int maxDistance = 150;   // EU countries mostly prescribe 1.5 meters other countries prescribe 6 feet (180 cm)
+int maxDistance = 180;   // EU countries mostly prescribe 1.5 meters other countries prescribe 6 feet (180 cm)
 int distance;
 long duration;
 
