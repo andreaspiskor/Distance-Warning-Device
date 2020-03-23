@@ -1,7 +1,7 @@
 /* 
  
   Distance Warning device using an HC-SR04 sensor
-
+  
   The distance is set to 180 cm or 6 feet.
   
 */
@@ -12,16 +12,18 @@ const byte ledRedPin = 4;
 const byte ledGreenPin = 5;
 const byte speakerPin = 8;
 const int toneFrequency = 2000;
-int maxDistance = 180;   // EU countries mostly prescribe 1.5 meters other countries prescribe 6 feet (180 cm)
+int maxDistance = 150;   // EU countries mostly prescribe 1.5 meters other countries prescribe 6 feet (180 cm)
 int distance;
 long duration;
 
 void setup() {
   
-  pinMode(trigPin, OUTPUT); 
-  pinMode(echoPin, INPUT); 
   pinMode(ledRedPin, OUTPUT);
   pinMode(ledGreenPin, OUTPUT);
+  digitalWrite(ledRedPin, HIGH);
+
+  pinMode(trigPin, OUTPUT); 
+  pinMode(echoPin, INPUT); 
 
   // Serial.begin(9600); 
 }
