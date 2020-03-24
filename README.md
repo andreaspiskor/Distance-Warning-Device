@@ -29,3 +29,10 @@ Wiring diagram:
 |Prototype PCB board 50x70cm                   | 1x    |
 |Wires                   |     |
 
+## 3D Printing the case
+
+The 3D printer I use is an Anet A8. The parts are printed with PLA, 10% infill and 0.3 setting. The print file can be found in the STL folder.
+
+## 3D Model of the case
+
+The case is modeled in FreeCAD. You can modify this design if you want. For those who like to use Fusion360 I've also added .STEP files which you can import in Fusion360 (I have not tried that though). 
