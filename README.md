@@ -1,8 +1,8 @@
 # Distance-Warning-Device
 
-The main purpose of this device is to make people aware of the distance they need to keep away from each other in case of the Corona pandemic. Not everybody knows exactly what 1,5 meters (or 6 feet) is. With this simple device you can show them.
+The main purpose of this device is to make people aware of the distance they need to keep away from each other because of the Corona pandemic. Not everybody knows exactly what 1,5 meters (or 6 feet) is. With this simple device you can show them. Depending on where you live 1,5 meters or 6 feet is adviced. You can easily change this in the source code (.ino file).
 
-This device can be used to measure of people get to close to you. If a person (or an object) is shorter than 1,5 meters away from you the red LED lights up and an alarm signal can be heard from the speaker. You can change the distance to 6 feet in code, just change the distance value from 150 to 180. To use it, press the button, wait for 1 or 2 seconds and as long as you press the button the device works. Aim the two "eyes" to a person to check the distance. 
+The device measures the distance between you and another person (or objects in general). If a person (or an object) is shorter than 1,5 meters away from you the red LED lights up and an alarm signal is played through the speaker. You can change the distance to 6 feet in code, just change the distance value from 150 to 180. To use it, press the button, wait for 1 or 2 seconds to start up and as long as you keep the button pressed the device is activated. Aim the two "eyes" to a person (or object) to check if the distance is below 1,5 meters. 
 
 ## Schema
 
