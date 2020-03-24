@@ -36,3 +36,5 @@ The 3D printer I use is an Anet A8. The parts are printed with PLA, 10% infill a
 ## 3D Model of the case
 
 The case is modeled in FreeCAD. You can modify this design if you want. For those who like to use Fusion360 I've also added .STEP files which you can import in Fusion360 (I have not tried that though). 
+
+![alt text](https://github.com/leonvandenbeukel/Distance-Warning-Device/blob/master/Model/Box.png)
