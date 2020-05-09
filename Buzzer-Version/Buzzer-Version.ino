@@ -15,6 +15,7 @@ const int toneFrequency = 2000;
 int maxDistance = 150;   // EU countries mostly prescribe 1.5 meters other countries prescribe 6 feet (180 cm)
 int distance;
 long duration;
+bool speakerOn = false;
 
 void setup() {
   
@@ -44,11 +45,17 @@ void loop() {
   //Serial.println(distance);
   
   if (distance < maxDistance && distance > 20 ) {
-    tone(speakerPin, toneFrequency);    
+    if (!speakerOn) {
+      digitalWrite(speakerPin, HIGH);
+      speakerOn = true;
+    }
     digitalWrite(ledRedPin, HIGH);
     digitalWrite(ledGreenPin, LOW);
   } else {
-    noTone(speakerPin);    
+    if (speakerOn) {
+      digitalWrite(speakerPin, LOW);
+      speakerOn = false;
+    }
     digitalWrite(ledRedPin, LOW);
     digitalWrite(ledGreenPin, HIGH);  
   }
